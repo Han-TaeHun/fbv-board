@@ -1,0 +1,8 @@
+{% extneds 'board/base.html' %}
+{% title %}Index{% endblock %}
+{% block content %}
+<ul>
+    <li><a href="{% url 'board:list' %}">목록</a></li>4
+    <li><a href="#">등록</a></li>
+</ul>
+{% endblock %}
